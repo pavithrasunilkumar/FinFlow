@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 222 84% 5%;
+  --foreground: 210 40% 98%;
+  --finflow-bg: #030712;
+  --finflow-bg2: #0a0f1e;
+  --finflow-card: #0d1425;
+  --finflow-border: #1e2d4a;
+  --finflow-cyan: #00d4ff;
+  --finflow-blue: #3b82f6;
+  --finflow-green: #10b981;
+  --finflow-amber: #f59e0b;
+  --finflow-red: #ef4444;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--finflow-bg);
+  color: #f0f6ff;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display { font-family: 'Syne', sans-serif; }
+.font-mono-custom { font-family: 'DM Mono', monospace; }
+
+/* Glassmorphism */
+.glass {
+  background: rgba(13, 20, 37, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(30, 45, 74, 0.8);
+}
+
+.glass-card {
+  background: rgba(13, 20, 37, 0.6);
+  backdrop-filter: blur(8px);
+  border: 1px solid #1e2d4a;
+  border-radius: 12px;
+}
+
+/* Glow effects */
+.cyan-glow { box-shadow: 0 0 20px rgba(0, 212, 255, 0.2); }
+.cyan-glow-text { text-shadow: 0 0 20px rgba(0, 212, 255, 0.5); }
+
+.gradient-text {
+  background: linear-gradient(135deg, #ffffff 0%, #b0d4ff 50%, #00d4ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-cyan {
+  background: linear-gradient(135deg, #00d4ff, #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Grid background */
+.grid-bg {
+  background-image: linear-gradient(rgba(30, 45, 74, 0.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30, 45, 74, 0.3) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(ellipse at center, black 30%, transparent 80%);
+}
+
+/* Status indicator */
+.status-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--finflow-green);
+  box-shadow: 0 0 6px var(--finflow-green);
+  animation: pulse-dot 2s infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--finflow-bg2); }
+::-webkit-scrollbar-thumb { background: var(--finflow-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #3b82f6; }
+
+/* Chart tooltips */
+.recharts-tooltip-wrapper { outline: none !important; }
