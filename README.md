@@ -2,7 +2,7 @@
 
 # FinFlow AI - Your Autonomous AI CFO
 
-🌐 **Predict trends · Analyze finances · Automate insights · Interact with AI**
+ **Predict trends · Analyze finances · Automate insights · Interact with AI**
 
 
 
