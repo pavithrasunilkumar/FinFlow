@@ -68,7 +68,7 @@ The system combines:
 
 ##  Features
 
-## 🤖 AI Features
+### 🤖 AI Features
 
 - Conversational AI CFO — Ask questions in natural language about your finances
 - RAG Pipeline — AI grounded in your actual financial data
@@ -78,7 +78,7 @@ The system combines:
 
 ---
 
-## 📈 ML Features
+### 📈 ML Features
 
 - Revenue Forecasting — Prophet + XGBoost ensemble (94.7% accuracy)
 - Expense Prediction — Category-level expense trend modeling
@@ -88,7 +88,7 @@ The system combines:
 
 ---
 
-## 📊 Analytics Features
+### 📊 Analytics Features
 
 - Real-time KPI Dashboards — Revenue, Profit, Cash Flow, Burn Rate
 - Enterprise BI — Tableau/Power BI-level financial intelligence
@@ -98,7 +98,7 @@ The system combines:
 
 ---
 
-## 🔐 Platform Features
+### 🔐 Platform Features
 
 - JWT Authentication + Google OAuth
 - Role-Based Access Control (RBAC)
@@ -183,7 +183,7 @@ Feature Engineering (Pandas/NumPy)
 
 # 🛠️ Tech Stack
 
-## Frontend
+### Frontend
 
 | Technology | Version | Purpose |
 |---|---|---|
@@ -196,7 +196,7 @@ Feature Engineering (Pandas/NumPy)
 | Zustand | 4.x | State Management |
 | React Query | 5.x | Data Fetching |
 
-## Backend
+### Backend
 
 | Technology | Version | Purpose |
 |---|---|---|
@@ -207,7 +207,7 @@ Feature Engineering (Pandas/NumPy)
 | Alembic | 1.x | Migrations |
 | Pydantic | 2.x | Data Validation |
 
-## AI/ML
+### AI/ML
 
 | Technology | Purpose |
 |---|---|
@@ -224,7 +224,7 @@ Feature Engineering (Pandas/NumPy)
 
 ## Quick Start
 
-## Clone Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/your-org/finflow-ai.git
@@ -233,7 +233,7 @@ cd finflow-ai
 
 ---
 
-## 1. Frontend Setup
+### 1. Frontend Setup
 
 ```bash
 cd frontend
@@ -243,7 +243,7 @@ npm run dev
 
 ---
 
-## 2️. Backend Setup
+### 2️. Backend Setup
 
 ```bash
 cd backend
@@ -255,7 +255,7 @@ uvicorn app.main:app --reload --port 8000
 
 ---
 
-## 3️. AI Engine Setup
+### 3️. AI Engine Setup
 
 ```bash
 cd ai-engine
@@ -265,7 +265,7 @@ python main.py
 
 ---
 
-## 4️⃣ ML Engine Setup
+### 4️⃣ ML Engine Setup
 
 ```bash
 cd ml-engine
@@ -274,7 +274,7 @@ pip install -r requirements.txt
 
 ---
 
-## 5️. Docker Setup
+### 5️. Docker Setup
 
 ```bash
 docker-compose up --build
@@ -296,7 +296,7 @@ docker-compose up --build
 
 #  API Endpoints
 
-## Authentication
+### Authentication
 
 | Method | Endpoint | Purpose |
 |---|---|---|
@@ -316,7 +316,7 @@ docker-compose up --build
 | GET | `/analytics/revenue` | Revenue analytics |
 | GET | `/analytics/expenses` | Expense analytics |
 
-## AI Features
+### AI Features
 
 | Method | Endpoint | Purpose |
 |---|---|---|
@@ -325,7 +325,7 @@ docker-compose up --build
 | POST | `/ai/report` | Generate AI report |
 | GET | `/ai/insights` | Get AI insights |
 
-## ML Features
+### ML Features
 
 | Method | Endpoint | Purpose |
 |---|---|---|
@@ -334,7 +334,7 @@ docker-compose up --build
 | GET | `/ml/health-score` | Financial health score |
 | POST | `/ml/upload-dataset` | Upload dataset for EDA |
 
-## AI Agents
+### AI Agents
 
 | Method | Endpoint | Purpose |
 |---|---|---|
@@ -407,7 +407,7 @@ finflow-ai/
 
 #  Roadmap
 
-## v1.0 (Current)
+### v1.0 (Current)
 - [x] Core dashboard with 10 pages
 - [x] AI conversational assistant
 - [x] ML forecasting (Prophet + XGBoost)
@@ -416,14 +416,14 @@ finflow-ai/
 - [x] Data Intelligence Lab
 - [x] JWT + Google OAuth
 
-## v1.1 (Next)
+### v1.1 (Next)
 - [ ] Real-time WebSocket updates
 - [ ] Mobile app (React Native)
 - [ ] Slack/Teams integrations
 - [ ] Multi-currency support
 - [ ] Custom report builder
 
-## v2.0 (Future)
+### v2.0 (Future)
 - [ ] Multi-tenant enterprise SaaS
 - [ ] Custom AI model fine-tuning
 - [ ] Bank/accounting integrations (Plaid, QuickBooks)
