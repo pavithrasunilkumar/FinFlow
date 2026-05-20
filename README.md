@@ -37,7 +37,7 @@
 
 ---
 
-# 📌 Overview
+## 📌 Overview
 
 **FinFlow AI** is a next-generation autonomous AI CFO platform that combines **Generative AI**, **Machine Learning**, **Predictive Analytics**, and **Business Intelligence** into one unified financial operating system.
 
@@ -45,16 +45,16 @@ The platform leverages a conversational AI assistant grounded in your real finan
 
 The system combines:
 
-- 🤖 Conversational AI CFO with RAG pipeline
-- 📈 Prophet + XGBoost revenue forecasting
-- 🧠 Isolation Forest anomaly detection
-- 🌐 Real-time KPI dashboards & BI analytics
-- 📊 Data Intelligence Lab with auto-EDA
-- ⚡ 6 autonomous AI finance agents
+-  Conversational AI CFO with RAG pipeline
+-  Prophet + XGBoost revenue forecasting
+-  Isolation Forest anomaly detection
+-  Real-time KPI dashboards & BI analytics
+-  Data Intelligence Lab with auto-EDA
+-  6 autonomous AI finance agents
 
 ---
 
-# 🎯 What Makes FinFlow AI Different
+## 🎯 What Makes FinFlow AI Different
 
 | Feature | Traditional Tools | FinFlow AI |
 |---|---|---|
@@ -66,7 +66,7 @@ The system combines:
 
 ---
 
-# ✨ Features
+##  Features
 
 ## 🤖 AI Features
 
@@ -109,7 +109,7 @@ The system combines:
 
 ---
 
-# 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -222,7 +222,7 @@ Feature Engineering (Pandas/NumPy)
 
 ---
 
-# ⚡ Quick Start
+## Quick Start
 
 ## Clone Repository
 
@@ -233,7 +233,7 @@ cd finflow-ai
 
 ---
 
-## 1️⃣ Frontend Setup
+## 1. Frontend Setup
 
 ```bash
 cd frontend
@@ -243,7 +243,7 @@ npm run dev
 
 ---
 
-## 2️⃣ Backend Setup
+## 2️. Backend Setup
 
 ```bash
 cd backend
@@ -255,7 +255,7 @@ uvicorn app.main:app --reload --port 8000
 
 ---
 
-## 3️⃣ AI Engine Setup
+## 3️. AI Engine Setup
 
 ```bash
 cd ai-engine
@@ -274,7 +274,7 @@ pip install -r requirements.txt
 
 ---
 
-## 5️⃣ Docker Setup
+## 5️. Docker Setup
 
 ```bash
 docker-compose up --build
@@ -282,7 +282,7 @@ docker-compose up --build
 
 ---
 
-# 🐳 Services
+#  Services
 
 | Service | Port | URL |
 |---|---|---|
@@ -294,7 +294,7 @@ docker-compose up --build
 
 ---
 
-# 📡 API Endpoints
+#  API Endpoints
 
 ## Authentication
 
@@ -405,7 +405,7 @@ finflow-ai/
 
 ---
 
-# 🗺️ Roadmap
+#  Roadmap
 
 ## v1.0 (Current)
 - [x] Core dashboard with 10 pages
