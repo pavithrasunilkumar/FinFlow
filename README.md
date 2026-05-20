@@ -1,15 +1,6 @@
 <div align="center">
 
-```
-███████╗██╗███╗   ██╗███████╗██╗      ██████╗ ██╗    ██╗     █████╗ ██╗
-██╔════╝██║████╗  ██║██╔════╝██║     ██╔═══██╗██║    ██║    ██╔══██╗██║
-█████╗  ██║██╔██╗ ██║█████╗  ██║     ██║   ██║██║ █╗ ██║    ███████║██║
-██╔══╝  ██║██║╚██╗██║██╔══╝  ██║     ██║   ██║██║███╗██║    ██╔══██║██║
-██║     ██║██║ ╚████║██║     ███████╗╚██████╔╝╚███╔███╔╝    ██║  ██║██║
-╚═╝     ╚═╝╚═╝  ╚═══╝╚═╝     ╚══════╝ ╚═════╝  ╚══╝╚══╝     ╚═╝  ╚═╝╚═╝
-```
-
-# 💼 FinFlow AI — Your Autonomous AI CFO
+# FinFlow AI - Your Autonomous AI CFO
 
 🌐 **Predict trends · Analyze finances · Automate insights · Interact with AI**
 
@@ -303,44 +294,6 @@ docker-compose up --build
 
 ---
 
-# 🔐 Environment Variables
-
-## Backend (.env)
-
-```env
-# Database
-DATABASE_URL=postgresql://finflow:password@localhost:5432/finflow_db
-REDIS_URL=redis://localhost:6379
-
-# Auth
-SECRET_KEY=your-super-secret-key-min-32-chars
-ALGORITHM=HS256
-ACCESS_TOKEN_EXPIRE_MINUTES=30
-
-# Google OAuth
-GOOGLE_CLIENT_ID=your-google-client-id
-GOOGLE_CLIENT_SECRET=your-google-client-secret
-
-# AI/LLM (Free Tiers)
-OPENROUTER_API_KEY=your-openrouter-key
-OLLAMA_BASE_URL=http://localhost:11434
-
-# Optional
-ANTHROPIC_API_KEY=
-```
-
-## Frontend (.env.local)
-
-```env
-NEXT_PUBLIC_API_URL=http://localhost:8000
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-NEXTAUTH_SECRET=your-nextauth-secret
-NEXTAUTH_URL=http://localhost:3000
-NEXT_PUBLIC_GOOGLE_CLIENT_ID=your-google-client-id
-```
-
----
-
 # 📡 API Endpoints
 
 ## Authentication
@@ -452,44 +405,6 @@ finflow-ai/
 
 ---
 
-# 🚢 Deployment
-
-## Vercel (Frontend)
-
-```bash
-cd frontend
-npx vercel --prod
-```
-
-## Render (Backend)
-
-1. Connect your GitHub repo to Render
-2. Create a new Web Service
-3. Build command: `pip install -r requirements.txt`
-4. Start command: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
-5. Add environment variables
-
-## Railway (Full Stack)
-
-```bash
-railway login
-railway init
-railway up
-```
-
----
-
-# 🔒 Security Features
-
-- JWT Authentication + Google OAuth
-- Role-Based Access Control (RBAC)
-- Secure API route protection
-- Redis-backed session caching
-- Audit trail logging
-- CORS protection
-
----
-
 # 🗺️ Roadmap
 
 ## v1.0 (Current)
@@ -526,7 +441,15 @@ railway up
 5. Open a Pull Request
 
 ---
+# 👩‍💻 Author
 
+## Pavithra Sunilkumar
+
+- LinkedIn: https://linkedin.com/in/pavithra-sunilkumar68
+- GitHub: https://github.com/pavithrasunilkumar
+- Portfolio: https://vermillion-panda-a08876.netlify.app/
+
+---
 # ⭐ Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
