@@ -13,7 +13,7 @@
 
 🌐 **Predict trends · Analyze finances · Automate insights · Interact with AI**
 
-🌐 Live Deployment — [💸 Visit FinFlow AI](https://finflow-ai.vercel.app)
+
 
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Version](https://img.shields.io/badge/Version-v1.0-blue)
